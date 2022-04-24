@@ -1,0 +1,99 @@
+:root {
+    --pokeBlue: #356abc;
+    --pokeYellow: #ffcd00;
+}
+@font-face {
+    font-family: pokemon;
+    src: url("fonts/Pokemon\ Solid.ttf")
+}
+
+* {
+    margin: 0;
+    background-color: rgb(31, 133, 216);
+    color: white;
+    font-family: pokemon;
+    font-weight: 50
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: var(--pokeBlue);
+    color: var(--pokeYellow);
+    border: solid hsla(0, 0%, 100%, 0.582) 2px;
+    font-size: 15px;
+    padding: 0 10px 5px 10px;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: white;
+}
+
+button:active {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.658);
+}
+
+.bushes { 
+    height: 200px;
+}
+
+#rules {
+    align-items: center;
+    display: flex;
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+#intro {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin: 20px 0 25px 0;
+}
+
+#start {
+    margin: 10px 0 35px 0;
+}
+
+#restart {
+    margin: 0 0 20px 0;
+}
+
+#topLink {
+    font-size: 12px;
+    color: var(--pokeYellow);
+    text-decoration: none;
+}
+
+#topLink:hover {
+    color: var(--pokeBlue)
+}
+
+#topLink:active {
+    color: white;
+}
+
+#banner {
+    border-radius: 25px;
+}
+
+#outcome {
+    font-size: 80px;
+    color: var(--pokeYellow);
+    text-align: center;
+    text-shadow: 7px 7px var(--pokeBlue);
+    margin: 0 0 50px 0;
+}
+
+#table {
+    margin-bottom: -60px;
+}

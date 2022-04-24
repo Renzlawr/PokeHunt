@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>PokeHunt</title>
+        <link rel="stylesheet" href="src/style.css">
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/1/1f/Pok%C3%A9mon_Charizard_art.png">
+    </head>
+    <body>
+        <a id="top"></a>
+        <div id="leftBar">
+        </div>
+        <div id="intro">
+            <img src="src/images/PokeHunt.png">
+            <h1>Watch out and good luck!</h3>
+        </div>
+        <a href="#playGame">
+            <button id="start">Click to Play!</button>
+        </a>
+        <img id="banner" src="https://outsidergaming.com/wp-content/uploads/2020/03/Safari-Rescue-Team-Camp-1024x364.jpg">
+        <div id="rules">
+            <img src="src/images/rules.png">
+            <ul>
+                <li>Click the bushes to check what's inside!</li>
+                <li>If the bush burns up you're getting closer!</li>
+                <li>If you encounter water, you lose.</li>
+                <li>If you find the pokemon, you win!</li>
+            </ul>
+        </div>
+        <div id="table">
+            <table id="playGame">
+                <tr>
+                    <td id="bushes0" onclick="bushes(0)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes1" onclick="bushes(1)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes2" onclick="bushes(2)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes3" onclick="bushes(3)"><img class="bushes" src="src/images/bush.png"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="bushes4" onclick="bushes(4)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes5" onclick="bushes(5)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes6" onclick="bushes(6)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes7" onclick="bushes(7)"><img class="bushes" src="src/images/bush.png"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="bushes8" onclick="bushes(8)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes9" onclick="bushes(9)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes10" onclick="bushes(10)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes11" onclick="bushes(11)"><img class="bushes" src="src/images/bush.png"></td>
+                </tr>
+                <tr>
+                    <td id="bushes12" onclick="bushes(12)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes13" onclick="bushes(13)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes14" onclick="bushes(14)"><img class="bushes" src="src/images/bush.png"></td>
+                    <td id="bushes15" onclick="bushes(15)"><img class="bushes" src="src/images/bush.png"></td>
+                </tr>
+            </table>
+        </div>
+        <p id="outcome"></p>
+        <button id="restart" onclick="location.reload()">Restart</button>
+        <footer>
+            <p>&copy Logan Ramos</p> 
+        </footer>
+        <a id="topLink" href="#top">Back to Top</a>
+        <script src="src/script.js"></script>
+    </body>
+</html>
